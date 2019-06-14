@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- preguntar a Jhon si puedo cambiarle el nombre a mi pagina-->
+    <title>Caesar Cipher Clave Segura</title>
+      <link rel="stylesheet" href="style.css" />
+  <!-- este es el enlace para mi pagina de Estilos-->
+      <link rel="stylesheet" href="css/normalize.css" />
+
+  </head>
+  <body>
+    <!-- Aquí empieza el encabezado principal que usare para todasa las páginas de mi sitio web -->
+    <header>
+      <nav>
+      <h1 aling ='center'>Claves Seguras para Email</h1>
+
+    <div id="root">
+      <!-- preguntar aJhon y a silvana si puedo poner una imagen svg como fondo
+      general de mi pagina usando la siguiente instrucción-->
+      <!-- EJEMPLO: <a href="index.html"><img src="img/home.svg"></a> -->
+    </div>
+     </nav>
+  </header>
+  <!-- empieza el contenido principal de mi pagina-->
+  <!-- colocar botones para la iteracion de cifrado y no cifrado-->
+  <form name="cifrado" id="frmcifrado">
+    <h2> Instrucciones de Uso</<h2></h2>
+    <p> Se requiere que ingreses la infrmación con *   ya que es obligatoria <b><abbr title="obligatorio"> *<abbr></b></p>
+
+    <section><h2>Claves Seguras para Email </h2>
+    <p>
+    <!--coloco una etiqueta para referencia el nombre de mi formulario-->
+    <label for="nombre">
+      <span>Nombre:   </span>
+       <b><abbr title ="obligatorio">*</abbr></b>
+    </label>
+      <input type= "text" id="nombre" name="nombreUsuario">
+      </p>
+      <p>
+        <label for="mail">
+           <span>E-mail:    </span>
+            <b><abbr title="obligatorio">*</abbr></b>
+        </label>
+        <p>
+        <input type="email" id="mail" name="mailUsuario">
+      </p>
+      <p>
+        <label for="clave">
+           <span>Clave:   </span>
+           <b><abbr title ="obligatorio">*</abbr></b>
+        </label>
+        <input type= "text" id="clave" name="txtClave">
+      </p>
+
+       <p> <button type="submit" id='btnCifrar'>Cifrar</button> </p>
+    </section>
+  </form>
+
+  <!--a qui coloco mi pie de pagina para referencia
+  preguntar como colocar el copia rigt-->
+  <footer>
+    <p>Derechos reservador por autora</p>
+  </footer>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

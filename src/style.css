@@ -68,7 +68,6 @@ nav a img {
   width: 1200px;
   margin: 0 auto;
 }
-
 .categorias p {
   font-size: 30px;
 }
@@ -169,10 +168,6 @@ fieldset {
 
 button {
     margin: 30px 0 0 130px;
-}
-
-label {
-  position: relative;
 }
 
 label em {

@@ -1,3 +1,38 @@
+#Proyecto de Clave segura
+
+DISEÑAR tomando en cuenta a la persona, su contexto, necesidades, frustraciones y motivaciones.
+
+1.- IDENTIFICAR LO QUE VOY HACER
+primera idea hacer programa de cifrado de correo y contraseñas seguras.
+Problemática: una aplicación web que pueda generar contraseñas seguras para poder acceder al correo electrónico. Ya que los usuarios no se sienten tranquilos con las aplicaciones o formularios donde les solicita ingresar su contraseña.
+Objetivo: Realizar una página que ayude a los usuarios a cifrar una clave que ellos deseen y que se segura para que puedan ingresar a su correo electrónico.
+
+2.- IDENTIFICAR NECESIDADES DE LOS USUARIOS
+Realizar cuestionario  teniendo en cuenta los siguientes datos.
+
+Nombre, correo, edad, genero, ¿Qué tan importante crees que sería contar con un cifrador de claves para tu cuenta de correo?  ¿Qué pensarías de una página o aplicación de cifrado que te solicita tu contraseña para acceder a tu cuenta de correo?  
+3.- bUSQUEDA DE TENDENCIAS SIMILARES( PAGINAS PARECIDAS E INCLUIR IMAGEN)
+
+ PROTOTIPADO
+![caeser-cipher](https://drive.google.com/drive/u/0/folders/1-2IY_Rer-uPDPZfdRmILfAgqdl5oTbhd)
+
+
+Feedback  #1
+
+1.* Ser más especifica de para que?, en que pestaña ubicarme, como colocar el nombre del pasword de cada Iteración.
+
+2.* Fue un poco intuitiva y clara.
+
+3.* Crear instrucciones, botones de regreso más descriptivo.
+
+Feedback #2
+1.* Recomendación de Karla quitar la parte de las contraseñas de mi idea original y prototipado.
+
+2.* Recomendación de Jhon cambiar mi idea central y realizarlo deacuerdo a la funcionalidad ya que el solicitarle al usuario su contraseña personal no era buena idea.
+
+
+===========================================
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -210,7 +245,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 ## Pistas sobre cómo comenzar a trabajar en el proyecto
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/), 
+   condiciones, algo como [Atom](https://atom.io/),
    [Visual Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com) o cualquier otro de tu preferencia.
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
@@ -221,7 +256,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux como tu Sistema Operativo.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   de [ este repositorio](https://github.com/Laboratoria/MEX-008-Cipher) de tu cohort, tus _coaches_ te compartirán un _link_ a un repositorio y te 
+   de [ este repositorio](https://github.com/Laboratoria/MEX-008-Cipher) de tu cohort, tus _coaches_ te compartirán un _link_ a un repositorio y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
@@ -291,4 +326,3 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
 * [ ] Modelo de negocio.
-

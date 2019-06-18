@@ -1,4 +1,4 @@
-/*fondo para mis htmls*/
+*fondo para mis htmls*/
 
  html {
     line-height: 3.15; /* 1 */
@@ -20,6 +20,7 @@
   /* estandariza el codigo de la funte y el margen de los elementos pero solo de los h1*/
 
   h1 {
+    align-content: center;
     font-size: 2em;
     margin: 0.70em 0;
   }
@@ -83,7 +84,6 @@
 
   /**
    * Agrega el tamaño de la fuente para todos los navegadores
-
    */
 
   small {
@@ -145,7 +145,6 @@
   }
 
   /**
-
    * 1. Elimina todo lo que tenga que ver con la forma original del proyecto.
    */
 

@@ -1,5 +1,10 @@
-*fondo para mis htmls*/
-
+/*fondo para mis htmls*/
+/*colocar solo si es que puedo usar imagen de fondo*/
+#fondo {
+  background: url(img/fondo.svg) no-repeat center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+  text-align:center;*/
+}
  html {
     line-height: 3.15; /* 1 */
     -webkit-text-size-adjust: 200%; /* 2 */

@@ -1,23 +1,40 @@
-#Proyecto de Clave segura
+# Proyecto de Clave Segura
 
-DISEÑAR tomando en cuenta a la persona, su contexto, necesidades, frustraciones y motivaciones.
 
-1.- IDENTIFICAR LO QUE VOY HACER
-primera idea hacer programa de cifrado de correo y contraseñas seguras.
-Problemática: una aplicación web que pueda generar contraseñas seguras para poder acceder al correo electrónico. Ya que los usuarios no se sienten tranquilos con las aplicaciones o formularios donde les solicita ingresar su contraseña.
+#Definicion del producto
+
+Despues de varios dias y de un feed back de mis compañeras de que podia utilizar el conocimiento que tengo en base a mis experencias personales de que es lo que podria realizart lo que me llevo a lo siguiente:
+
+#1.- IDENTIFICAR LO QUE VOY HACER
+Problemática: una aplicación web que pueda generar contraseñas seguras para poder acceder al correo electrónico. Ya que los usuarios no se sienten tranquilos con las aplicaciones o formularios donde les solicita ingresar su contraseña. 
+
 Objetivo: Realizar una página que ayude a los usuarios a cifrar una clave que ellos deseen y que se segura para que puedan ingresar a su correo electrónico.
 
-2.- IDENTIFICAR NECESIDADES DE LOS USUARIOS
-Realizar cuestionario  teniendo en cuenta los siguientes datos.
+#2.- IDENTIFICAR NECESIDADES DE LOS USUARIOS
+Primordialmente mi pruducto fue pensado para personas que se encuentran en el hambito laboral, pero despues de un buen feedback en cuanto a mi propuesta y un formulario diseñado para obtener datos de mis posibles usrios que acontinuación anexo.
 
-Nombre, correo, edad, genero, ¿Qué tan importante crees que sería contar con un cifrador de claves para tu cuenta de correo?  ¿Qué pensarías de una página o aplicación de cifrado que te solicita tu contraseña para acceder a tu cuenta de correo?  
-3.- bUSQUEDA DE TENDENCIAS SIMILARES( PAGINAS PARECIDAS E INCLUIR IMAGEN)
+[Formulario](/img/Formulario.jpg).
+[formulario2](/img/formulario2.jpg).
 
- PROTOTIPADO
-![caeser-cipher](https://drive.google.com/drive/u/0/folders/1-2IY_Rer-uPDPZfdRmILfAgqdl5oTbhd)
+Llegue a la conclusion de cambiar el diseño de mi propuesta por un ambien mucho más practico y los usuarios destinados para utilizar lo amplie para Adolescentes y Adultos depues de analizar las graficas de resultados que obtuve con mi formulario.
+
+[Resultados] (https://docs.google.com/forms/d/1QN1JIozMysQddXNS9awk0bGvQjHApiiIKXkGt0lDXx4/edit#responses)
 
 
-Feedback  #1
+ # PROTOTIPADO
+Objetivo despues de Test: Realizar el cifrado una clave que ellos deseen y que se segura para que le permita reordar una clave segura para poder ingresar a su correo. El producto se diseño para resolver esta necesidad de manera inmediata con posibilidad de mejorar.
+
+Muestro el diseño de los tres porototipos 
+#Primer protoripo de baja fidelidad
+ [Maquetado1](/img/maquetado1.jpg)
+ [Maquetado1](/img/maquetado1-2.jpg)
+ [Maquetado1](/img/maquetado1-3.jpg)
+ [Maquetado1](/img/maquetado1-4.jpg)
+ [Maquetado1](/img/maquetado1-5.jpg)
+ [Maquetado1](/img/maquetado1-6.jpg)
+
+ 
+#Feedback  #1
 
 1.* Ser más especifica de para que?, en que pestaña ubicarme, como colocar el nombre del pasword de cada Iteración.
 
@@ -25,13 +42,54 @@ Feedback  #1
 
 3.* Crear instrucciones, botones de regreso más descriptivo.
 
-Feedback #2
+ 
+ #Primer prototipo mediana fidelidad en Marvel 
+ [Protoripo de Marvel](https://marvelapp.com/40ie2gg)
+
+
+#Feedback #2
 1.* Recomendación de Karla quitar la parte de las contraseñas de mi idea original y prototipado.
 
 2.* Recomendación de Jhon cambiar mi idea central y realizarlo deacuerdo a la funcionalidad ya que el solicitarle al usuario su contraseña personal no era buena idea.
 
+ #Segundo prototipo de baja fidelidad
+[Maquetado2](/img/maquetado2.jpg)
+[Maquetado2](/img/maquetado2-1.jpg)
+[Maquetado2](/img/maquetado2-2.jpg)
 
-===========================================
+ #tercer prototipo de baja fidelidad
+ [Maquetado3](/img/maquetado3.jpg)
+ [Maquetado3](/img/maquetado3.jpg)
+
+
+#  SCIPS  ARCHIVOS
+
+### Como descargar el archivo
+
+1.- Bebes de entrar a la siguiente liga: [Archivo] (https://github.com/Pamela-C-Torres-Gtz/MEX-008-Cipher).
+
+2.- Una vez que ingreses posicionate en la parte superior derecha de la pantalla y dale click en Fork.
+
+3.- Una vez Forkeado debes dar click en el Boton de Clonar, esto para poner tener una copia en tu dispositivpo del repositorio y poder accerder al Proyecto completo.
+
+4.- Una vez que tengas tu copia puedes entrar en la Carperte src en la cual se encuantra nuestro archivo principal para navegar en la pagina, que tiene como nombre "index.html.
+
+5.- Una vez abierta en nuestro navegador nos aparece una pantalla donde apareceran las indicaciones de uso de la web asi como los botones de las opciones a utilizar.
+
+6.- Puedes elegir cualquiera de las dos opciones "Cifrar" o "Decifrar". Recuerda que el objetivo de esta pagina es generar un cifrado de clave segura para que el surio la pueda utilizar para ingresar posterioremente a su cuenta de correo electronico. Teniendo obviamente la opción posterioremente de Desifrar estaclave o cambiarla.
+
+###Consideraciones Tecnicas
+
+1.- Como consideraciones el proyecto cumple con lo solicitado de manera funcional aunque a la vista el diseño es muy sencillo (el cual Sigue en desarrollo). 
+
+2.- Se realizaron Test unitarios de los cuales anexo iamgen:
+
+[Resultado1] (/img/resultado-Git.jpg)
+[Resultado2] (/img/resultado tes unitarios.jpg)
+
+3.- Tambien se llego al Haker Edition, debo mensionar que sin darme cuanta.
+
+#=================================================================================================
 
 # Cifrado César
 

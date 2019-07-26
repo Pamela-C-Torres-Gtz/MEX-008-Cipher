@@ -25,7 +25,22 @@
   <!-- colocar botones para la iteracion de cifrado y no cifrado-->
   <form name="cifrado" id="frmcifrado">
     <h2> Instrucciones de Uso </h2>
-    <p> Porfavor ingrese la pablabra que desea codificar en Mayusculas * </p>
+    <p>1.- Porfavor ingrese la pablabra que desea codificar en el recuadro que dice Ingresa Texto, no importa si es en mayusculas, minusculas o lo que eligas:
+      <br>
+      <li>Cuenta de correo electronico.  </li>
+        <li> Clave de tu cuanta de correo. </li>
+        <li>Un mensaje importante que no quieres olvidar, pero que no quieres que vean.  </li>
+        <li>Entre otros.  </li>
+        <br>
+        2.- En el recuadro que dice "Ingresa un Numero" puedes ingrsar el numero que quieras, esta sera tu clave (Recuerda no olvidarlo porque lo necesitaras para Descencriptar).
+        <br>
+        <br>
+        3.- En recuadro que dice "Tu resultado es:" podras visualizar tu información codificada y segura.
+        <br>
+        <br>
+        Nota: Para mayor seguridad tu resultado aparecera en Mayusculas, no olvides anotarla o imprimirla.
+               
+      </p>
     <br>
     <section><h2>Generador de clave Segura </h2>
     <br>
@@ -34,10 +49,11 @@
       <input type= "text" id="txt-cipher" placeholder="Ingresa texto a codificar"/>
       <br>
       <br>
+      <input type="number" id="offset" placeholder="ingresa un numero"/>    
+      <br>
+      <br>
       <input type="text" id="input-decoder" placeholder="Tu resultado es:"/>
-      <br>
-      <br>
-      <input type="number" id="offset" placeholder="ingresa un numero"/>       
+      <br>   
       </section>
   </form>
      <p> <button type="submit" id="botonCifrar">Cifrar</button> </p>

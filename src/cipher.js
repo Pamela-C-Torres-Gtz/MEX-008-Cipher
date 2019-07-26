@@ -5,14 +5,14 @@ window.cipher = {
     //declaramos nuestra variable vacia
     let textModificado = '';
     // convertir a mayusculas
-    let strCl= string.toUpperCase();
+
 
     // realizamos un ciclo
-    for (let i = 0; i < strCl.length; i ++)
+    for (let i = 0; i < string.length; i ++)
     {
      //colocamos formula //
     //hacer la validadción despues de que hace la conversion de la letra a codigo acci//
-    const ascii = strCl.charCodeAt (i);
+    const ascii = string.charCodeAt (i);
      if (ascii >= 65 && ascii <=90 )
        {
          codeModificado = (ascii-65+offset) % 26 + 65;

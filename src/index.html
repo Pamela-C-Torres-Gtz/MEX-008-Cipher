@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,44 +20,35 @@
   </header>
   <section class="hero">
     <h1><b>Clave Segura</b></h1>
-  </section> <!--en esta seccion tendre lo central y las intrucciones-->
-  <!--Utilizar un modal para las siguientes instrucciones
-  Puedes elegir la opcion Codificar para crear tu clave segura que usaras para tu correo electronico 
-  o cualquier dato que paria sea importante tener en secreto como:
-  Cuenta de correo electronico.
-  Clave de tu cuanta de correo.
-  Un mensaje importante que no quieres olvidar, pero que no quieres que vean.
-  Entre otros.
-  Las Posibilidades son inlimitadas y se pueden adaptar a tu necesidad.
-  ero si lo que tu quieres es Desencriptar tu información o recordar cual era tu clave, elige la opción Descifrar y sigue las instrucciones.
-      -->
-   
+  </section>
   <section class="cifrar">
     <h2>Cifrar</h2>
     <article class="cifrado">
       <div class="instructions">
         <h3>Instrucciones de Uso</h3>
-        <p>1.- Porfavor ingrese la pablabra que desea codificar en el recuadro que dice Ingresa Texto, no importa si es en mayusculas, minusculas o lo que eligas:
-        <br>
-        <li>Cuenta de correo electronico.  </li>
-        <li> Clave de tu cuanta de correo. </li>
-        <li>Un mensaje importante que no quieres olvidar, pero que no quieres que vean.  </li>
-        <li>Entre otros.  </li>
-        <p>2.- En el recuadro que dice "Ingresa un Numero" puedes ingrsar el numero que quieras, esta sera tu clave (Recuerda no olvidarlo porque lo necesitaras para Descencriptar).</p>
-        <p>3.- En recuadro que dice "Tu resultado es:" podras visualizar tu información codificada y segura.</p> 
-        <p>Nota: Para mayor seguridad tu resultado aparecera en Mayusculas, no olvides anotarla o imprimirla.</p>
+        <p>1.- Porfavor ingrese la pablabra que desea codificar en el recuadro que dice Ingresa Texto, no importa si es
+          en mayusculas, minusculas o lo que eligas:
+          <br>
+          <li>Cuenta de correo electronico. </li>
+          <li> Clave de tu cuanta de correo. </li>
+          <li>Un mensaje importante que no quieres olvidar, pero que no quieres que vean. </li>
+          <li>Entre otros. </li>
+          <p>2.- En el recuadro que dice "Ingresa un Numero" puedes ingrsar el numero que quieras, esta sera tu clave
+            (Recuerda no olvidarlo porque lo necesitaras para Descencriptar).</p>
+          <p>3.- En recuadro que dice "Tu resultado es:" podras visualizar tu información codificada y segura.</p>
+          <p>Nota: Para mayor seguridad tu resultado aparecera en Mayusculas, no olvides anotarla o imprimirla.</p>
       </div>
       <div class="container">
-         <h3>Generador de Clave Segura</h3>
-         <!--coloco una etiqueta para referencia el nombre de mi formulario-->
-         <input type= "text" id="txt-cipher" placeholder="Ingresa texto a codificar"/>
-         <br>
-         <br>
-         <input type="number" id="offset" placeholder="ingresa un numero"/>    
-         <br>
-         <br>
-         <input type="text" id="input-decoder" placeholder="Tu resultado es:"/>
-         <br>   
+        <h3>Generador de Clave Segura</h3>
+        <!--coloco una etiqueta para referencia el nombre de mi formulario-->
+        <input type="text" id="txt-cipher" placeholder="Ingresa texto a codificar" />
+        <br>
+        <br>
+        <input type="number" id="offset" placeholder="ingresa un numero" />
+        <br>
+        <br>
+        <input type="text" id="input-decoder" placeholder="Tu resultado es:" />
+        <br>
       </div>
     </article>
   </section>
@@ -65,28 +57,29 @@
     <article class="descifrado">
       <div class="instructions">
         <h3>Instrucciones de Uso</h3>
-        <p> Porfavor ingrese la pablabra que desea decodificar en Mayusculas  *</p>
+        <p> Porfavor ingrese la pablabra que desea decodificar en Mayusculas *</p>
       </div>
       <div class="container">
         <h3>Generador de Decodificación Segura</h3>
         <!--coloco una etiqueta para referencia el nombre de mi formulario-->
-      <input type= "text" id="txt-decode" placeholder="Ingresa texto a decodificar"/>
-      <br>
-      <br>
-      <input type="text" id="input-origin" placeholder="Tu texto  original es: "/>
-      <br>
-      <br>
-      <input type="number" id="offset" placeholder="ingresa un numero"/>
+        <input type="text" id="txt-decode" placeholder="Ingresa texto a decodificar" />
+        <br>
+        <br>
+        <input type="text" id="input-origin" placeholder="Tu texto  original es: " />
+        <br>
+        <br>
+        <input type="number" id="offset" placeholder="ingresa un numero" />
       </div>
     </article>
   </section>
-     <br>
+  <br>
   <section class="butons">
-      <p> <button type="submit" id="botonCifrar">Cifrar</button> </p>
-      <p> <button type="boton" id="botonDecifrar">DeCifrar</button> </p>
-      <!--generar un boton de salida-->
+    <p> <button type="submit" id="botonCifrar">Cifrar</button> </p>
+    <p> <button type="boton" id="botonDecifrar">DeCifrar</button> </p>
+    <!--generar un boton de salida-->
   </section>
   <footer>footer</footer>
   <script src="cipher.js"></script>
 </body>
+
 </html>

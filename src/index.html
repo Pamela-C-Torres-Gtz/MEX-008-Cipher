@@ -5,81 +5,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Textos Seguros</title>
+  <link rel = "icon" type="image/png" href = "/img/logo.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <title>Clave Segura</title>
+  
 </head>
 <body>
-  <header>
-    <div>
-      <figure>
-        <img>
+  <header class="header">
+      <figure class="logo" >
+        <img src="/img/logoNombre.png" height="250px" alt="logo Nombre"/>
       </figure>
-      <nav>
+      <nav class="menu">
+        <ol>
+          <li><a class="link" href="#instrucciones">Modo de uso</a></li>
+          <li><a class="link" href="#cifrar">Cifrar</a></li>
+          <li><a class="link" href="#descifrar">Descifrar</a></li>
+        </ol>
       </nav>
-    </div>
   </header>
   <section class="hero">
-    <h1><b>Clave Segura</b></h1>
+    <h1> Bienvenid@! <strong>Textos Seguros</strong> es una Web App<br> que te ayudara a tener <strong>todos los textos que desees seguros</strong> con <br>
+      tan solo seguir unas simples reglas podras <strong> Cifrar</strong> y <strong>Descifrar</strong> lo que quieras<br> 
+     el limite es tu imaginación.</h1>
   </section>
-  <section class="cifrar">
+  <section id="instrucciones" class="instructions">
+    <h2>Modo de Uso</h2>
+    <p>1.- Porfavor ingrese la pablabra que desea codificar en el recuadro que dice Ingresa Texto, no importa si es
+      en mayusculas, minusculas o lo que eligas:
+      <br>
+      <li>Cuenta de correo electronico. </li>
+      <li> Clave de tu cuanta de correo. </li>
+      <li>Un mensaje importante que no quieres olvidar, pero que no quieres que vean. </li>
+      <li>Entre otros. </li>
+      <p>2.- En el recuadro que dice "Ingresa un Numero" puedes ingrsar el numero que quieras, esta sera tu clave
+        (Recuerda no olvidarlo porque lo necesitaras para Descencriptar).</p>
+      <p>3.- En recuadro que dice "Tu resultado es:" podras visualizar tu información codificada y segura.</p>
+      <p>Nota: Para mayor seguridad tu resultado aparecera en Mayusculas, no olvides anotarla o imprimirla.</p>
+  </section>
+    
+   <section id="cifrar" class="encrypted text">
     <h2>Cifrar</h2>
-    <article class="cifrado">
-      <div class="instructions">
-        <h3>Instrucciones de Uso</h3>
-        <p>1.- Porfavor ingrese la pablabra que desea codificar en el recuadro que dice Ingresa Texto, no importa si es
-          en mayusculas, minusculas o lo que eligas:
-          <br>
-          <li>Cuenta de correo electronico. </li>
-          <li> Clave de tu cuanta de correo. </li>
-          <li>Un mensaje importante que no quieres olvidar, pero que no quieres que vean. </li>
-          <li>Entre otros. </li>
-          <p>2.- En el recuadro que dice "Ingresa un Numero" puedes ingrsar el numero que quieras, esta sera tu clave
-            (Recuerda no olvidarlo porque lo necesitaras para Descencriptar).</p>
-          <p>3.- En recuadro que dice "Tu resultado es:" podras visualizar tu información codificada y segura.</p>
-          <p>Nota: Para mayor seguridad tu resultado aparecera en Mayusculas, no olvides anotarla o imprimirla.</p>
-      </div>
-      <div class="container">
+      <article class="cipher">
+        <div class="cipher-container">
         <h3>Generador de Clave Segura</h3>
         <!--coloco una etiqueta para referencia el nombre de mi formulario-->
-        <input type="text" id="txt-cipher" placeholder="Ingresa texto a codificar" />
-        <br>
-        <br>
-        <input type="number" id="offset" placeholder="ingresa un numero" />
-        <br>
-        <br>
-        <input type="text" id="input-decoder" placeholder="Tu resultado es:" />
-        <br>
-      </div>
-    </article>
-  </section>
-  <section class="descifra">
+        <input class="cipher-initialText" id="txt-cipher" type="text" placeholder="Ingresa texto a codificar" />
+        <input class="cipher-number" id="offset" type="number"  placeholder="ingresa un numero" />
+        <input class="cipher-resultText" id="input-decoder" type="text"  placeholder="Tu resultado es:" />
+        </div>
+     </article>
+   </section>
+   <section id="descifra" class="decipher text">
     <h2>Descifrar</h2>
-    <article class="descifrado">
-      <div class="instructions">
-        <h3>Instrucciones de Uso</h3>
-        <p> Porfavor ingrese la pablabra que desea decodificar en Mayusculas *</p>
-      </div>
-      <div class="container">
+     <article class="decipher">
+      <div class="decipher-container">
         <h3>Generador de Decodificación Segura</h3>
         <!--coloco una etiqueta para referencia el nombre de mi formulario-->
-        <input type="text" id="txt-decode" placeholder="Ingresa texto a decodificar" />
-        <br>
-        <br>
-        <input type="text" id="input-origin" placeholder="Tu texto  original es: " />
-        <br>
-        <br>
-        <input type="number" id="offset" placeholder="ingresa un numero" />
+        <input class="decipher-initialText" id="txt-decode" type="text"  placeholder="Ingresa texto a decodificar" />
+        <input class="decipher-number"  id="offset" type="number" placeholder="ingresa un numero" />
+        <input class="decipher-resultText" id="input-origin" type="text"  placeholder="Tu texto  original es: " />  
       </div>
     </article>
   </section>
-  <br>
-  <section class="butons">
-    <p> <button type="submit" id="botonCifrar">Cifrar</button> </p>
-    <p> <button type="boton" id="botonDecifrar">DeCifrar</button> </p>
+  <section class="buttons">
+     <button id="btnCipher" type="submit">Cifrar</button> 
+     <button id="btnDecipher" type="button">DeCifrar</button> 
     <!--generar un boton de salida-->
   </section>
-  <footer>footer</footer>
-  <script src="cipher.js"></script>
+  <footer class="footer">
+    <div>
+      <p>Diseño y derechos reservado por &copy; Pamela Torres   </p>
+    </div>
+    <div>
+        <p>BootCamp Laboratoria Generación MEX-008 Proyecto MEX-008-Cipher </p>
+      </div>
+  </footer>
+  <script src="index.js"></script>
 </body>
 
 </html>

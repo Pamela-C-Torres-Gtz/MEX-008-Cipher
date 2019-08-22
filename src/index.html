@@ -53,6 +53,7 @@
         <input class="cipher-initialText" id="txt-cipher" type="text" placeholder="Ingresa texto a codificar" />
         <input class="cipher-number" id="offset" type="number"  placeholder="ingresa un numero" />
         <input class="cipher-resultText" id="input-decoder" type="text"  placeholder="Tu resultado es:" />
+        <button class="boton" id="btnCipher" type="button">Cifrar</button>
         </div>
      </article>
    </section>
@@ -63,16 +64,13 @@
         <h3>Generador de Decodificación Segura</h3>
         <!--coloco una etiqueta para referencia el nombre de mi formulario-->
         <input class="decipher-initialText" id="txt-decode" type="text"  placeholder="Ingresa texto a decodificar" />
-        <input class="decipher-number"  id="offset" type="number" placeholder="ingresa un numero" />
+        <input class="decipher-number"  id="offsetD" type="number" placeholder="ingresa un numero" />
         <input class="decipher-resultText" id="input-origin" type="text"  placeholder="Tu texto  original es: " />  
+        <button id="btnDecipher" class="boton" type="button">DeCifrar</button>
       </div>
     </article>
   </section>
-  <section class="buttons">
-     <button id="btnCipher" type="submit">Cifrar</button> 
-     <button id="btnDecipher" type="button">DeCifrar</button> 
-    <!--generar un boton de salida-->
-  </section>
+  <input id="btnLimpiar" class="boton" type="button" value="LIMPIAR"  >
   <footer class="footer">
     <div>
       <p>Diseño y derechos reservado por &copy; Pamela Torres   </p>
@@ -82,6 +80,6 @@
       </div>
   </footer>
   <script src="index.js"></script>
+  <script src="cipher.js"></script>
 </body>
-
 </html>

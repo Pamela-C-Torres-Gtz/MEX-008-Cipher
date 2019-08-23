@@ -1,0 +1,147 @@
+/*Colores que se estaran uyilizando*/
+/*color:#0585FF;  azul de h2*/
+/*color :#040328; para el strong*/
+
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url(/img/fondo.jpg);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-attachment: fiexd;
+  background-position: fied;
+}
+
+h1, 
+h2 {
+    font-family: 'Fjalla One', sans-serif; /*tipos de fuente para todos los h1*/
+    font-weight: normal;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+/*Estilos de secci+on de Header*/
+.header{
+    /*Para poner degradado en cabecera y footer*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,44,99,1) 35%, rgba(53,147,163,1) 100%);
+    color: white;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:2px 2px 7px 2px rgb(164, 206, 235);
+    background-color: rgba(86, 139, 218, 0.6);
+    border-radius: 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+.menu {
+    height: inherit;
+    font-size: 25px;
+}
+
+ol,
+ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.header ol li {
+    height: inherit;
+    display: flex;
+    align-items: center;  
+}
+
+.header a {  
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.hero {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+  font-size: 40px;  /*tamaño de la fuente*/
+  line-height: 1.5; /*espacio entre lineas de los textos*/
+  letter-spacing: -.2px;/*separacion que deben tener las letras*/
+  color: white; /* poner color a la letra del titulo*/
+  margin: 0;
+}
+
+h1 strong {
+    color:#040328;
+}
+
+h2 {
+  color:#1A2255;
+  text-transform: uppercase; /*para cambiar las letras en mayusculoas*/
+  font-family: 'Source Sans Pro', sans-serif;/*Colocamos el mismot tipo de fuente que tiene el body*/
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.instructions {
+   border: 1px solid blue;
+   border-radius: 15px;
+  /* margin-bottom: 15px;*/
+   padding: 20px;
+   color:#040328;
+  -webkit-box-shadow: -6px 2px 1px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: -6px 2px 1px 0px rgba(0, 0, 0, 0.11);
+  box-shadow:2px 2px 7px 2px rgb(164, 206, 235);
+  background-color: rgba(86, 139, 218, 0.6);
+  font-size: 20px;
+  /*flex-wrap: wrap;*/
+  flex-direction: column;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.encrypted-text {
+
+}
+
+.decipher-text {
+
+}
+
+.footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,44,99,1) 35%, rgba(53,147,163,1) 100%);
+}

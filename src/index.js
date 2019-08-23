@@ -13,8 +13,7 @@ const btnDecifrar= document.getElementById('btnDecipher');
 //declaración de variables para el boton de limpiado de pantalla
 let btnLimpiar = document.getElementById('btnLimpiar');
 
-/* recomendacion de silvana para obtener el valos de nuestra caja con un evento*/
-
+/* recomendacion de silvana para obtener el valores de nuestra caja con un evento*/
 
 /* evento del dom o ejecutar funcion cipher*/
 btnCifrar.addEventListener('click', (e) => {
@@ -23,13 +22,11 @@ btnCifrar.addEventListener('click', (e) => {
   inputResult.value=window.cipher.encode(parseInt(offset.value), inputEncode.value)
 })
 
-
 // evento del dom o ejecutar funcion Decipher
 btnDecifrar.addEventListener('click', (e) => {
   e.preventDefault();
  // console.log(offset.value);
   inputOrigin.value =window.cipher.decode(parseInt(offsetD.value), inputDecode.value)
-
 })
 
 // evento dom para ejecutar limpiar

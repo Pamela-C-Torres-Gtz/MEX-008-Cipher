@@ -1,16 +1,39 @@
 # Proyecto de Clave Segura
+ 
+Actualización de Trabajo .
+
+## Objetivo de mi proyecto fue:
+ 
+ *  Estruccturar adecuadamente mi proyecto en cuanto al HTML (Trabar lo más semantico que pueda).
+ *  Ordenar y depurar los Archivos inecesarios con extensión  .html y  .js. 
+ *  Estructurar adecuadamente los archivos Chipher.js e index.js
+ *  Crear clases coerentes y de manera descente para poder trabajr en CSS.
+
+ ## Las mejoras en mi proyecto.
+
+ Fueron sobre todo en la parte visual y el numero de archivos trabajados.
+
+ ![Primera](https://github.com/Pamela-C-Torres-Gtz/MEX-008-Cipher/blob/master/anexos/cipher-origin-1.png) 
+
+ ![Segunda](https://github.com/Pamela-C-Torres-Gtz/MEX-008-Cipher/blob/master/anexos/cipher-origin-2.png) 
+ 
+![Tercera](https://github.com/Pamela-C-Torres-Gtz/MEX-008-Cipher/blob/master/anexos/cipher-origin-3.png) 
 
 
-#Definicion del producto
+
+
+
+
+## Definicion del producto
 
 Despues de varios dias y de un feed back de mis compañeras de que podia utilizar el conocimiento que tengo en base a mis experencias personales de que es lo que podria realizart lo que me llevo a lo siguiente:
 
-#1.- IDENTIFICAR LO QUE VOY HACER
+## 1.- IDENTIFICAR LO QUE VOY HACER
 Problemática: una aplicación web que pueda generar contraseñas seguras para poder acceder al correo electrónico. Ya que los usuarios no se sienten tranquilos con las aplicaciones o formularios donde les solicita ingresar su contraseña. 
 
 Objetivo: Realizar una página que ayude a los usuarios a cifrar una clave que ellos deseen y que se segura para que puedan ingresar a su correo electrónico.
 
-#2.- IDENTIFICAR NECESIDADES DE LOS USUARIOS
+## 2.- IDENTIFICAR NECESIDADES DE LOS USUARIOS
 Primordialmente mi pruducto fue pensado para personas que se encuentran en el hambito laboral, pero despues de un buen feedback en cuanto a mi propuesta y un formulario diseñado para obtener datos de mis posibles usrios que acontinuación anexo.
 
 [Formulario](/img/Formulario.jpg).
